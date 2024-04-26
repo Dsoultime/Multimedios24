@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptable</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .header{
+            background-color: rgb(192, 230, 105);
+            padding: 10px;
+            height: 150px;
+            text-align: center;
+        }
+
+        .centro{
+            background-color: rgb(214, 61, 61);        
+            height: 550px;
+        }
+
+        .menu{
+            background-color: aqua;         
+            float: left;
+            height: 100%;
+        }
+
+        .article{
+            background-color: chocolate;
+            text-align: center;
+            float: left;
+            height: 100%;    
+        }
+
+        .info{
+           background-color: darkkhaki;        
+           float: left;
+           height: 100%;
+           text-align: center;
+        }
+
+        .footer{
+            background-color: darkgray;
+            padding: 5px;
+            height: 100px;
+        }
+
+        .contacto{
+            float: left;
+            height: 100%;
+        }
+
+        .redes{
+            float: left;
+            height: 100%;
+        }
+
+        .info2{
+            float: left;
+            height: 100%;
+        }
+
+        .col1{
+            width: 8.33%;
+        }
+
+        .col2{
+            width: 16.66%;
+        }
+
+        .col3{
+            width: 25%;
+        }
+        .col4{
+            width: 34%;
+        }
+        .col6{
+            width: 50%;
+        }
+
+        .col12{
+            width: 100%;
+        }
+
+        .borderstilo{
+            border: 1px solid black;
+        }
+
+        .fondo{
+            background-image: url(Imagenes/tented-camp.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .fondo2{
+            background-image: url(Imagenes/fondo\ madera.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .fondo3{
+            background-image: url(Imagenes/campo-rio-cane.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .fondo4{
+            background-image: url(Imagenes/pizza.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .estilo{      
+            font-family: Arial;     
+            font-size: 25px;
+        }
+        .estilo2{         
+            color: white;
+            background: black;
+            background-position:left;
+       
+        }
+    </style>
+</head>
+<body>
+    <div class="maindashboard">
+        <div class="header col12 borderstilo fondo2">
+            <h1 class="estilo">Hotel Poza Blanca</h1>
+        </div>
+        <div class="centro col12 borderstilo">
+            <div class="menu col3 borderstilo fondo">
+                <h2>Menu</h2>
+                <ul class="col4 estilo2">
+                    <li>Usuarios</li>           
+                    <li>Reservacion</li>
+                    <li>Acerca</li>
+                    <li>Cerrar Session</li>
+                </ul>
+            </div>
+            <div class="article col6 borderstilo fondo3">
+                <H2 class="estilo">Nuestra ubicacion</H2>
+                <p class="estilo2">
+                    Nuestra ubicacion te permite llegar con cualquier tipo de vehiculo. Poseemos zona de camping, parqueo respectivo y mucho mas.
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2191.539957231766!2d-84.51761358515495!3d9.931933471213249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa04da0a60fa66d%3A0x708ddb7f1e366c68!2sPoza%20Blanca%20Lodge!5e0!3m2!1ses-419!2scr!4v1712020395779!5m2!1ses-419!2scr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="info col3 borderstilo fondo4">
+                <h2 class="estilo">Restaurante</h2>
+                <p class="estilo2">
+                    Nuestro hotel tambien cuenta con un restaurante itialiano, ofreciendo asi una alta variedad de pizzas y comidas
+                </p>
+
+            </div>
+        </div>
+        <div class="footer col12 borderstilo fondo2">
+           <div class="col3 contacto">
+                <h2 class="estilo">Contacto</h2>
+                <p class="estilo2">Horario de atencion al cliente 8am - 4pm</p>
+           </div>
+           <div class="col6 redes estilo">
+                <ul class="estilo2 col2">
+                    <li>
+                         <a href="">Facebook</a>
+                    </li>               
+                    <li>
+                        <a href="">Instagram</a>
+                    </li>
+                </ul>
+           </div>
+           <div class="col3 info2 ">
+                <p class="estilo2">Correo: pozablancacr@gmail.com</p>
+                <p class="estilo2">Telefonos: 2244-8956/2244-6745</p>
+           </div>
+             
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+<style>
+    .pagina {
+        background-color: gray;
+
+    }
+    .centro {
+        margin: auto;
+        height: auto;
+    }
+    .parrafo {
+        text-align: center
+    }
+    .fondo {
+        background-image: url(Img/arena.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .float {
+        float: left;
+    }
+    .separador {
+        margin-right: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="container-fluid pagina min-vh-100">
+        <header>
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                    <a href="Home.html"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <img src="Img/cactusIcon.png" width="44" height="44">
+                        <span class="fs-4">CactusCR</span>
+                    </a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item separador">
+                            <a href="Home.html" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item separador">
+                            <a href="SobreNosotros.html" class="nav-link active">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item separador">
+                            <a href="Productos.html" class="nav-link active">Productos</a>
+                        </li>
+                        <li class="nav-item separador">
+                            <a href="Contacto.html" class="nav-link active">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container-fluid parrafo fondo">            
+                    <strong>En esta seccion se ofrece un listado de todos los productos disponibles para la venta. Si
+                        desea
+                        saber
+                        el precio y la cantidad disponible tan solo da click al boton info debajo de cada
+                        producto.</strong>              
+                <div class="container d-flex flex-wrap">
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/corona.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Corona de fuego</h5>
+                            <p class="card-text">La corona de fuego es un tipo de cactus propio de Sudamérica. En la actualidad es una especie muy popular gracias a sus flores masivas de colores brillantes, las cuales brotan bordeando la base y si llegar al tope de la planta, además de considerarse una especie inofensiva que no causa reacciones alérgicas. Sin embargo, como buen cactus, requiere de manipulación delicada porque sus espinas pueden clavarse.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/angel.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Alas de angel</h5>
+                            <p class="card-text">Es conocida como “nopal cegador” o “nopalillo cegador” porque sus espinas pueden causar ceguera en los animales que se le acercan. En seres humanos, cuando se desprenden, las espinas pueden causar irritación y picor. La alas de ángel necesita de un amplio espacio para crecer y florecer, por lo que no es muy frecuente ver sus flores cuando es cultivada en macetas.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/abundancia.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Arbol de la abundancia</h5>
+                            <p class="card-text">Debe ser sembrado en un lugar donde pueda recibir suficiente luz solar. Se puede cultivar como bonsái. Al finalizar el invierno, el árbol de la abundancia tiene pequeñas flores rosadas que brotan en forma de racimos al final de las ramas.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/sedorojo.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sedo rojo</h5>
+                            <p class="card-text">El sedo rojo (Sedum rubrotinctum) es una suculenta difícil de encontrar asilvestrada, ya que se trata de una especie creada por agricultores especializados. Sus hojas, extremadamente carnosas, son como la aurora boreal: pueden variar de color e ir del verde pálido al rosa e incluso llegar al blanco platinado. Atrae a caracoles y babosas, que son capaces de devorar los tallos del sedo rojo en minutos.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/Salvavidas.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Salvavidas</h5>
+                            <p class="card-text">La planta salvavidas es una planta suculenta perenne notable por su crecimiento en forma de cúmulos. Es natural de áreas abiertas, en suelos rocosos o de alta dureza. El nombre específico "zebrina" hace referencia a la coloración de la especie, que recuerda a la de las cebras.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card float separador" style="width: 18rem;">
+                        <img class="card-img-top img-responsive" src="Img/lengua.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gasteria</h5>
+                            <p class="card-text">La gasteria es una planta suculenta de entre 20 y 40 centímetros de altura, caracterizada por sus hojas verdes con numerosos puntitos blancos y por extenderse más a lo ancho que a lo alto, formando colonias. Sus flores tubulares de color rosa anaranjado son adecuadas para rocallas, bordes, en macetas colgantes y en terrazas y patios.</p>
+                            <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                                data-bs-target="#modalId">Info</button>
+
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Informacion sobre el producto
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <ul>
+                                                    <li>
+                                                        Precio: 10$
+                                                    </li>
+                                                    <li>Cantidad 10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Cerrar
+                                            </button>
+                                            <a href="Home.html" class="btn btn-primary"
+                                                data-bs-target="#modalId">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="Home.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none 1h-1">
+                            <img src="Img/cactusIcon.png" width="44" height="44">
+                        </a>
+                        <strong class="mb-3 mb-md-0 text-body-secondary">cactuscr@gmail.com</strong>
+                    </div>
+                    <div>
+                        <p>Telefonos:
+                            2024-8790
+                            2024-6538
+                        </p>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <strong>Nuestras redes sociales: </strong>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.fb.com">
+                                <img src="Img/fb.png" width="44" height="44">
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.twitter.com">
+                                <img src="Img/X.png" width="44" height="44">
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.instagram.com">
+                                <img src="Img/insta.png" width="44" height="44">
+                            </a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Clase</title>
+    <style>
+        /*Palabra que coincida como base
+        [class|=primera]{
+            background-color: aqua;
+        }*/
+
+
+        /*Palabra que encuentre la palabra mezclada
+        [class^=primera]{
+            background-color: aqua;
+        }*/
+
+        /*Cuando finaliza con esa palabra
+        [class$=primera]{
+            background-color: aqua;
+        }*/
+
+        /*Para cuando contenga una palabra especifica
+        [class*="a"]{
+            background-color: rgb(0, 4, 255);
+        }*/
+
+        input[type="text"]{
+            width: 120px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="test-primera-titulo">Titulo</h1>
+    
+    <p class="primeraparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a autem sapiente consectetur, consequuntur optio
+        eum, non saepe eveniet inventore labore quia, voluptates quasi animi corporis eius pariatur iure adipisci!
+    </p>
+
+    <p class="primera-test">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio dicta dignissimos nemo cumque natus?
+        Id cupiditate beatae, quas quod reprehenderit doloribus pariatur sunt assumenda praesentium exercitationem quia
+        voluptatem eius?
+    </p>
+
+    <p class="primeratest">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo corporis suscipit fugiat, laudantium
+        exercitationem sit pariatur at beatae ratione, libero possimus laborum officiis repellat ipsam dolor adipisci
+        alias? Libero!
+    </p>
+
+    <label for="">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+
+    <label for="">Apellido</label>
+    <input type="text" name="apellido" id="apellido">
+
+    
+    
+
+</body>
+
+</html>
